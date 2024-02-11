@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import "/public/css/tab.css"
 
 export default function Tab() {
     const [activeIndex, setActiveIndex] = useState(1)
